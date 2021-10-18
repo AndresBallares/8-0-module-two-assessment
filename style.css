@@ -1,0 +1,51 @@
+
+.title {
+    display:grid;
+    gap: 40px;
+    background: lavender; 
+    height: 400px;
+    grid-template-areas: 
+        "header header"
+        "sidebar content"
+        "sidebar content"
+        "footer footer"
+}
+
+.head {
+    grid-area: header;
+    background: skyblue;
+    height: 300px;
+    width: 75%;
+    
+}
+
+section {
+    grid-area: sidebar;
+
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.movie {
+    grid-area: content;
+    height: 50px;
+    width: 220px;
+    border-radius: 25px;
+}
+
+form {
+    grid-area: footer;
+    height: 60px;
+    margin-right: 200px;
+
+}
+
+
+img {
+    max-width: 50%;
+    height: auto;
+}
